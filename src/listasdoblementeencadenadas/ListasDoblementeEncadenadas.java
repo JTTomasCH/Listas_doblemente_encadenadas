@@ -81,7 +81,7 @@ public class ListasDoblementeEncadenadas<Item extends Comparable<? super Item>> 
 
     }
 
-    public boolean SonIguales(ListasDoblementeEncadenadas<Item> otherList) {
+    public boolean areEquals(ListasDoblementeEncadenadas<Item> otherList) {
         if (this.size() != otherList.size()) {
             return false;
         }

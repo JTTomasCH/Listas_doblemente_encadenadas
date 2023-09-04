@@ -43,7 +43,7 @@ public class ListasDoblementeEncadenadasMain {
         }
         System.out.println("");
 
-        System.out.println("La lista 1 y 2 son iguales? "+persona.SonIguales(personas)+"\n");
+        System.out.println("La lista 1 y 2 son iguales? "+persona.areEquals(personas)+"\n");
         
         
         Persona per5 = new Persona("Carlos", 15);
